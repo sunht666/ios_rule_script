@@ -1,0 +1,21 @@
+name: "小红书去广告"
+desc: "去除冷启动配置与广告，需开启 MitM"
+
+# 1. HTTP 覆写部分
+http:
+  script:
+    # 你的核心脚本规则
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config
+      name: XHS-ColdStart
+      type: http-response
+      requires-body: true
+      timeout: 30
+      # 这里直接指向你已经上传好的 JS 文件
+      path: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/xhs/xhs.js
+      # 调试开关
+      debug: true
+
+# 2. MITM 解密部分 (Override 文件的巨大优势：可以自动添加域名)
+mitm:
+  hostnames:
+    - edith.xiaohongshu.com

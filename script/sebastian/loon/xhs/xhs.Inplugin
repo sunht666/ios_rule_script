@@ -1,6 +1,6 @@
 #!name=小红书语音开关
 #!desc=小红书语音开关 Cold Start Config，开启语音评论
-#!author=YourName
+#!author=Sebastian
 
 [Script]
 # 使用 ^ 匹配 URL 开头，确保兼容后面带参数的情况

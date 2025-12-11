@@ -1,6 +1,7 @@
 /**
- * file: xhs.js
- * desc: JSON 正则替换脚本
+ * file: xhs_cold_start.js
+ * desc: 小红书语音评论开关
+ * author: yourname
  */
 
 // ==============================================
@@ -8,7 +9,8 @@
 // ==============================================
 const rules = [
     {
-        // 小红书语音评论开关
+        // 示例：强制开启语音评论 (修改 voice_comment_status 字段)
+        // 解释：匹配 "key": 任意值，直到遇到逗号或右大括号
         reg: '"voice_comment_status":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
         val: '"voice_comment_status": 1'
     },
@@ -18,12 +20,12 @@ const rules = [
 // 2. 核心处理逻辑
 // ==============================================
 let body = $response.body;
+const url = $request.url;
 
 if (body) {
+
     rules.forEach(item => {
-        // 构造正则对象，'g' 表示全局替换
         const re = new RegExp(item.reg, "g");
-        // 执行替换
         body = body.replace(re, item.val);
     });
 

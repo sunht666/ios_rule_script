@@ -1,0 +1,10 @@
+#!name=小红书语音开关
+#!desc=小红书语音开关 Cold Start Config，开启语音评论
+#!author=YourName
+
+[Script]
+# 使用 ^ 匹配 URL 开头，确保兼容后面带参数的情况
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/xhs/xhs.js, requires-body=true, tag=小红书语音开关
+
+[MITM]
+hostname = edith.xiaohongshu.com

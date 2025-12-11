@@ -1,0 +1,12 @@
+name: "My Personal Scripts"
+desc: "我的自用脚本集"
+
+scripts:
+  - name: XHS-ColdStart-Modify
+    # 匹配规则
+    pattern: '^https://edith\.xiaohongshu\.com/api/sns/v1/system/cold_start_config'
+    type: http-response
+    requires-body: true
+    timeout: 30
+    # 这里填写你那个 JS 文件的 Raw 地址
+    path: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/redbook/xhs.js

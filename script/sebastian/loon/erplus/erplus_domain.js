@@ -23,14 +23,15 @@ let body = $response.body;
 const url = $request.url;
 
 if (body) {
-    console.log("domain 调试 body", body);
+    console.log("domain 调试 body" + body);
     rules.forEach(item => {
         const re = new RegExp(item.reg, "g");
         body = body.replace(re, item.val);
     });
-    console.log("domain 调试 body 替换后", body);
+    console.log("domain 调试 body 替换后" + body);
 
     $done({ body });
 } else {
+    console.log("domain 调试 body 为空");
     $done({});
 }

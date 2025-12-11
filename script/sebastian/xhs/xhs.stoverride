@@ -1,5 +1,5 @@
-name: "小红书添加语音按钮"
-desc: "小红书添加语音按钮"
+name: "小红书语音评论"
+desc: "小红书语音评论"
 
 script-providers:
   XHS-JS:
@@ -15,5 +15,6 @@ http:
       requires-body: true
       timeout: 30
   mitm:
+    # 解析
     hostnames:
       - edith.xiaohongshu.com

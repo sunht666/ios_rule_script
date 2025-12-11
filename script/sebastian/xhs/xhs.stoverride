@@ -1,21 +1,19 @@
 name: "小红书添加语音按钮"
 desc: "小红书添加语音按钮"
 
-# 1. HTTP 覆写部分
+script-providers:
+  XHS-JS:
+    url: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/redbook/xhs.js
+    interval: 86400
+
 http:
   script:
-    # 你的核心脚本规则
-    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config
-      name: XHS-ColdStart
+    # 正则使用单引号，无需双反斜杠，看着清爽
+    - match: '^https://edith\.xiaohongshu\.com/api/sns/v1/system/cold_start_config'
+      name: XHS-JS 
       type: http-response
       requires-body: true
       timeout: 30
-      # 这里直接指向你已经上传好的 JS 文件
-      path: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/xhs/xhs.js
-      # 调试开关
-      debug: true
-
-# 2. MITM 解密部分 (Override 文件的巨大优势：可以自动添加域名)
-mitm:
-  hostnames:
-    - edith.xiaohongshu.com
+  mitm:
+    hostnames:
+      - edith.xiaohongshu.com

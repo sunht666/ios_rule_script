@@ -9,4 +9,4 @@ http-response ^https:\/\/www\.erplus\.co\/api\/v1\/profile script-path=https://r
 http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contact\/90078734\/identity?isCustomerService=1 script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加超级管理员
 
 [MITM]
-hostname = *.erplus.co
+hostname = *.erplus.co, *.erplus.cn

@@ -1,11 +1,6 @@
 name: "小红书语音评论"
 desc: "小红书语音评论"
 
-script-providers:
-  XHS-JS:
-    url: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/redbook/xhs.js
-    interval: 86400
-
 http:
   script:
     # 正则使用单引号，无需双反斜杠，看着清爽
@@ -18,3 +13,8 @@ http:
     # 解析
     hostnames:
       - edith.xiaohongshu.com
+
+script-providers:
+  XHS-JS:
+    url: https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/redbook/xhs.js
+    interval: 86400

@@ -30,7 +30,10 @@ if (body) {
     });
     console.log("domain 调试 body 替换后" + body);
 
-    $done({ body });
+    $done({ 
+        status: 200,
+        body: body 
+    });
 } else {
     console.log("domain 调试 body 为空");
     $done({});

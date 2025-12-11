@@ -7,4 +7,4 @@
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/xhs/xhs.js, requires-body=true, tag=小红书语音开关
 
 [MITM]
-hostname = edith.xiaohongshu.com
+hostname = edith.xiaohongshu.com, *.xiaohongshu.com

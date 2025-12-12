@@ -4,7 +4,8 @@
 
 [Script]
 # 使用 ^ 匹配 URL 开头，确保兼容后面带参数的情况
-http-response ^https:\/\/.+\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/xhs/xhs.js, requires-body=true, tag=小红书语音开关
+http-response ^https:\/\/.+\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/xhs/xhs_voice.js, requires-body=true, tag=小红书语音开关
+http-response ^https:\/\/.+\.xiaohongshu\.com\/api\/sns\/v1\/note\/imagefeed script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/xhs/xhs_save.js, requires-body=true, tag=小红书去水印
 
 [MITM]
 hostname = edith.xiaohongshu.com, *.xiaohongshu.com

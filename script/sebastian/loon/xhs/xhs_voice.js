@@ -1,5 +1,5 @@
 /**
- * file: xhs_cold_start.js
+ * file: xhs_voice.js
  * desc: 小红书语音评论开关
  * author: yourname
  */
@@ -9,8 +9,6 @@
 // ==============================================
 const rules = [
     {
-        // 示例：强制开启语音评论 (修改 voice_comment_status 字段)
-        // 解释：匹配 "key": 任意值，直到遇到逗号或右大括号
         reg: '"voice_comment_status":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
         val: '"voice_comment_status": 1'
     },

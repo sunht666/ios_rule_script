@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-12-08 02:08:06
+# UPDATED: 2026-01-04 02:08:20
 # HOST: 19
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7032
+# HOST-SUFFIX: 7056
 # IP-CIDR: 93
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7182
+# TOTAL: 7206
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
@@ -291,6 +291,7 @@ HOST-SUFFIX,alicejapan.co.jp,Proxy
 HOST-SUFFIX,aliengu.com,Proxy
 HOST-SUFFIX,alive.bar,Proxy
 HOST-SUFFIX,aljazeera.com,Proxy
+HOST-SUFFIX,aljazeera.net,Proxy
 HOST-SUFFIX,alkasir.com,Proxy
 HOST-SUFFIX,all4mom.org,Proxy
 HOST-SUFFIX,allcoin.com,Proxy
@@ -380,6 +381,7 @@ HOST-SUFFIX,anti1984.com,Proxy
 HOST-SUFFIX,antichristendom.com,Proxy
 HOST-SUFFIX,antiwave.net,Proxy
 HOST-SUFFIX,antpool.com,Proxy
+HOST-SUFFIX,anuneko.com,Proxy
 HOST-SUFFIX,anyporn.com,Proxy
 HOST-SUFFIX,anysex.com,Proxy
 HOST-SUFFIX,ao3.org,Proxy
@@ -682,6 +684,7 @@ HOST-SUFFIX,bit.com,Proxy
 HOST-SUFFIX,bit.do,Proxy
 HOST-SUFFIX,bit.ly,Proxy
 HOST-SUFFIX,bit.no.com,Proxy
+HOST-SUFFIX,bitbaby.com,Proxy
 HOST-SUFFIX,bitbay.net,Proxy
 HOST-SUFFIX,bitbucket.org,Proxy
 HOST-SUFFIX,bitc.bme.emory.edu,Proxy
@@ -2328,6 +2331,7 @@ HOST-SUFFIX,gfw.org.ua,Proxy
 HOST-SUFFIX,gfw.press,Proxy
 HOST-SUFFIX,gfw.report,Proxy
 HOST-SUFFIX,gfwatch.org,Proxy
+HOST-SUFFIX,gfwbao.com,Proxy
 HOST-SUFFIX,gfwlist.end,Proxy
 HOST-SUFFIX,gfwlist.start,Proxy
 HOST-SUFFIX,gfx.ms,Proxy
@@ -3122,6 +3126,7 @@ HOST-SUFFIX,icons8.com,Proxy
 HOST-SUFFIX,icu-project.org,Proxy
 HOST-SUFFIX,id.hao123.com,Proxy
 HOST-SUFFIX,idaiwan.com,Proxy
+HOST-SUFFIX,idcflare.com,Proxy
 HOST-SUFFIX,iddddg.com,Proxy
 HOST-SUFFIX,idemocracy.asia,Proxy
 HOST-SUFFIX,identi.ca,Proxy
@@ -3375,6 +3380,7 @@ HOST-SUFFIX,jex.com,Proxy
 HOST-SUFFIX,jfqu36.club,Proxy
 HOST-SUFFIX,jfqu37.xyz,Proxy
 HOST-SUFFIX,jgoodies.com,Proxy
+HOST-SUFFIX,jhelab.org,Proxy
 HOST-SUFFIX,jiangweiping.com,Proxy
 HOST-SUFFIX,jiaoyou8.com,Proxy
 HOST-SUFFIX,jiehua.cz,Proxy
@@ -3720,6 +3726,7 @@ HOST-SUFFIX,lorenzetti.com.br,Proxy
 HOST-SUFFIX,lotsawahouse.org,Proxy
 HOST-SUFFIX,lotuslight.org.hk,Proxy
 HOST-SUFFIX,lotuslight.org.tw,Proxy
+HOST-SUFFIX,lovart.ai,Proxy
 HOST-SUFFIX,loved.hk,Proxy
 HOST-SUFFIX,lovetvshow.com,Proxy
 HOST-SUFFIX,lpsg.com,Proxy
@@ -4194,6 +4201,7 @@ HOST-SUFFIX,nekoslovakia.net,Proxy
 HOST-SUFFIX,neo-miracle.com,Proxy
 HOST-SUFFIX,neoforged.net,Proxy
 HOST-SUFFIX,neowin.net,Proxy
+HOST-SUFFIX,nephobox.com,Proxy
 HOST-SUFFIX,netalert.me,Proxy
 HOST-SUFFIX,netbirds.com,Proxy
 HOST-SUFFIX,netcolony.com,Proxy
@@ -4574,6 +4582,7 @@ HOST-SUFFIX,parkansky.com,Proxy
 HOST-SUFFIX,parler.com,Proxy
 HOST-SUFFIX,parse.com,Proxy
 HOST-SUFFIX,parsevideo.com,Proxy
+HOST-SUFFIX,partnerstack.xyz,Proxy
 HOST-SUFFIX,passion.com,Proxy
 HOST-SUFFIX,passiontimes.hk,Proxy
 HOST-SUFFIX,paste.ee,Proxy
@@ -4603,6 +4612,7 @@ HOST-SUFFIX,pct.org.tw,Proxy
 HOST-SUFFIX,pdetails.com,Proxy
 HOST-SUFFIX,pdfexpert.com,Proxy
 HOST-SUFFIX,pdproxy.com,Proxy
+HOST-SUFFIX,pdst.fm,Proxy
 HOST-SUFFIX,peace.ca,Proxy
 HOST-SUFFIX,peacefire.org,Proxy
 HOST-SUFFIX,peacehall.com,Proxy
@@ -4671,14 +4681,23 @@ HOST-SUFFIX,pinkrod.com,Proxy
 HOST-SUFFIX,pinoy-n.com,Proxy
 HOST-SUFFIX,pinterest.at,Proxy
 HOST-SUFFIX,pinterest.ca,Proxy
+HOST-SUFFIX,pinterest.cl,Proxy
 HOST-SUFFIX,pinterest.co.kr,Proxy
 HOST-SUFFIX,pinterest.co.uk,Proxy
 HOST-SUFFIX,pinterest.com,Proxy
+HOST-SUFFIX,pinterest.com.au,Proxy
+HOST-SUFFIX,pinterest.com.mx,Proxy
 HOST-SUFFIX,pinterest.de,Proxy
 HOST-SUFFIX,pinterest.dk,Proxy
+HOST-SUFFIX,pinterest.es,Proxy
 HOST-SUFFIX,pinterest.fr,Proxy
+HOST-SUFFIX,pinterest.ie,Proxy
+HOST-SUFFIX,pinterest.it,Proxy
 HOST-SUFFIX,pinterest.jp,Proxy
 HOST-SUFFIX,pinterest.nl,Proxy
+HOST-SUFFIX,pinterest.nz,Proxy
+HOST-SUFFIX,pinterest.ph,Proxy
+HOST-SUFFIX,pinterest.pt,Proxy
 HOST-SUFFIX,pinterest.se,Proxy
 HOST-SUFFIX,pipii.tv,Proxy
 HOST-SUFFIX,piposay.com,Proxy
@@ -4721,6 +4740,7 @@ HOST-SUFFIX,pobieramy.top,Proxy
 HOST-SUFFIX,podbean.com,Proxy
 HOST-SUFFIX,podcast.co,Proxy
 HOST-SUFFIX,podictionary.com,Proxy
+HOST-SUFFIX,podwise.ai,Proxy
 HOST-SUFFIX,poe.com,Proxy
 HOST-SUFFIX,points-media.com,Proxy
 HOST-SUFFIX,pokemon.com,Proxy
@@ -4923,9 +4943,11 @@ HOST-SUFFIX,radicalparty.org,Proxy
 HOST-SUFFIX,radiko.jp,Proxy
 HOST-SUFFIX,radio-canada.ca,Proxy
 HOST-SUFFIX,radio-en-ligne.fr,Proxy
+HOST-SUFFIX,radio.co,Proxy
 HOST-SUFFIX,radio.garden,Proxy
 HOST-SUFFIX,radioaustralia.net.au,Proxy
 HOST-SUFFIX,radiohilight.net,Proxy
+HOST-SUFFIX,radiojar.com,Proxy
 HOST-SUFFIX,radioline.co,Proxy
 HOST-SUFFIX,radiotime.com,Proxy
 HOST-SUFFIX,radiovaticana.org,Proxy
@@ -5496,6 +5518,7 @@ HOST-SUFFIX,startuplivingchina.com,Proxy
 HOST-SUFFIX,stat.gov.tw,Proxy
 HOST-SUFFIX,state.gov,Proxy
 HOST-SUFFIX,static-economist.com,Proxy
+HOST-SUFFIX,static.pocketcasts.com,Proxy
 HOST-SUFFIX,statically.io,Proxy
 HOST-SUFFIX,staticflickr.com,Proxy
 HOST-SUFFIX,statueofdemocracy.org,Proxy
@@ -6277,6 +6300,7 @@ HOST-SUFFIX,unstable.icu,Proxy
 HOST-SUFFIX,untraceable.us,Proxy
 HOST-SUFFIX,unwire.hk,Proxy
 HOST-SUFFIX,uocn.org,Proxy
+HOST-SUFFIX,up.audio,Proxy
 HOST-SUFFIX,upbit.com,Proxy
 HOST-SUFFIX,updatestar.com,Proxy
 HOST-SUFFIX,upghsbc.com,Proxy

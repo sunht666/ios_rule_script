@@ -1,19 +1,17 @@
 # NAME: Lan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:01
+# UPDATED: 2026-04-06 02:12:48
 # DOMAIN: 6
-# DOMAIN-SUFFIX: 117
+# DOMAIN-SUFFIX: 114
 # IP-CIDR: 18
-# TOTAL: 141
+# TOTAL: 138
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
 DOMAIN,oasisauth.h3c.com
 DOMAIN,router.asus.com
 DOMAIN,setmeup.arubanetworks.com
 DOMAIN,www.asusrouter.com
-DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-DOMAIN-SUFFIX,0.in-addr.arpa
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,100.100.in-addr.arpa
@@ -123,7 +121,6 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,routerlogin.com
 DOMAIN-SUFFIX,tendawifi.com
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,tplinkwifi.net
 DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,ts.net

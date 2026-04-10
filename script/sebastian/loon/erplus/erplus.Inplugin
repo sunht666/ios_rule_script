@@ -1,12 +1,18 @@
-#!name=大管加管理员
-#!desc=大管加管理员
+#!name=大管加超级管理员
+#!desc=大管加超级管理员（完整权限：admin + 全模块权限码）
 #!author=Sebastian
 
 [Script]
-# 使用 ^ 匹配 URL 开头，确保兼容后面带参数的情况
+# 域名修改
 http-response ^https?:\/\/www\.erplus\.cn\/getDomains$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_domain.js, requires-body=true, tag=大管加修改域名
-http-response ^https?:\/\/www\.erplus\.co\/api\/v1\/profile$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加超级管理员
-http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contacts\/\d+\/identity.* script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加超级管理员
+
+# 管理员字段注入 (profile + identity)
+http-response ^https?:\/\/www\.erplus\.co\/api\/v1\/profile$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加Profile
+http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contacts\/\d+\/identity script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加Identity
+
+# 权限码注入 (permissionCode数组 — 所有isXxxAdmin的数据源)
+http-response ^https:\/\/www\.erplus\.co\/mpauth\/getSomeoneAuthByAccessToken script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_permission.js, requires-body=true, tag=大管加权限码
+http-response ^https:\/\/www\.erplus\.co\/mpauth\/getEveryoneAuthByAccessTokenServlet script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_permission.js, requires-body=true, tag=大管加全员权限
 
 [MITM]
 hostname = *.erplus.co, *.erplus.cn

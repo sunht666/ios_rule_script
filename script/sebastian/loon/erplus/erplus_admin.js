@@ -8,6 +8,7 @@
 // 1. 规则配置区域
 // ==============================================
 const rules = [
+    // 原有
     {
         reg: '"isAdmin":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
         val: '"isAdmin": true'
@@ -19,6 +20,31 @@ const rules = [
     {
         reg: '"isContactManager":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
         val: '"isContactManager": 1'
+    },
+    // 新增: 超级管理员 + 各模块管理员
+    {
+        reg: '"isSuperAdmin":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"isSuperAdmin": true'
+    },
+    {
+        reg: '"isAccountManager":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"isAccountManager": true'
+    },
+    {
+        reg: '"isHRManager":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"isHRManager": 1'
+    },
+    {
+        reg: '"hasCrmPermission":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"hasCrmPermission": true'
+    },
+    {
+        reg: '"isCrmAdmin":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"isCrmAdmin": true'
+    },
+    {
+        reg: '"isTaskAdmin":.*?((?=,)|(?=\n)|(?=\r)|(?=\\}))',
+        val: '"isTaskAdmin": true'
     }
 ];
 

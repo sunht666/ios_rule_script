@@ -8,6 +8,7 @@ http-response ^https?:\/\/www\.erplus\.cn\/getDomains$ script-path=https://raw.g
 
 # 管理员字段注入 (profile + identity)
 http-response ^https?:\/\/www\.erplus\.co\/api\/v1\/profile$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加Profile
+http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contacts(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加通讯录
 http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contacts\/\d+\/identity script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_admin.js, requires-body=true, tag=大管加Identity
 
 # 权限码注入 (permissionCode数组 — 所有isXxxAdmin的数据源)

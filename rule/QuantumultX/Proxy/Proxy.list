@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-10 02:24:07
+# UPDATED: 2026-04-26 02:16:44
 # HOST: 19
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7075
+# HOST-SUFFIX: 7087
 # IP-CIDR: 93
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7225
+# TOTAL: 7237
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
@@ -364,10 +364,10 @@ HOST-SUFFIX,angularjs.org,Proxy
 HOST-SUFFIX,animecrazy.net,Proxy
 HOST-SUFFIX,animeshippuuden.com,Proxy
 HOST-SUFFIX,aniscartujo.com,Proxy
-HOST-SUFFIX,annas-archive.in,Proxy
-HOST-SUFFIX,annas-archive.li,Proxy
+HOST-SUFFIX,annas-archive.gd,Proxy
+HOST-SUFFIX,annas-archive.gl,Proxy
 HOST-SUFFIX,annas-archive.org,Proxy
-HOST-SUFFIX,annas-archive.pm,Proxy
+HOST-SUFFIX,annas-archive.pk,Proxy
 HOST-SUFFIX,annas-archive.se,Proxy
 HOST-SUFFIX,annatam.com,Proxy
 HOST-SUFFIX,anobii.com,Proxy
@@ -426,6 +426,7 @@ HOST-SUFFIX,apkpure.com,Proxy
 HOST-SUFFIX,apkpure.net,Proxy
 HOST-SUFFIX,aplusvpn.com,Proxy
 HOST-SUFFIX,app-measurement.net,Proxy
+HOST-SUFFIX,app.element.io,Proxy
 HOST-SUFFIX,app.heywire.com,Proxy
 HOST-SUFFIX,app.tutanota.com,Proxy
 HOST-SUFFIX,appadvice.com,Proxy
@@ -483,6 +484,7 @@ HOST-SUFFIX,asiansexdiary.com,Proxy
 HOST-SUFFIX,asianspiss.com,Proxy
 HOST-SUFFIX,asianwomensfilm.de,Proxy
 HOST-SUFFIX,asiaone.com,Proxy
+HOST-SUFFIX,asiasociety.org,Proxy
 HOST-SUFFIX,asiatgp.com,Proxy
 HOST-SUFFIX,asiatoday.us,Proxy
 HOST-SUFFIX,ask.com,Proxy
@@ -521,6 +523,7 @@ HOST-SUFFIX,avfantasy.com,Proxy
 HOST-SUFFIX,avg.com,Proxy
 HOST-SUFFIX,avgle.com,Proxy
 HOST-SUFFIX,avidemux.org,Proxy
+HOST-SUFFIX,avistaz.to,Proxy
 HOST-SUFFIX,avmo.pw,Proxy
 HOST-SUFFIX,avmoo.com,Proxy
 HOST-SUFFIX,avmoo.net,Proxy
@@ -627,6 +630,7 @@ HOST-SUFFIX,beijingspring.com,Proxy
 HOST-SUFFIX,beijingzx.org,Proxy
 HOST-SUFFIX,belamionline.com,Proxy
 HOST-SUFFIX,bell.wiki,Proxy
+HOST-SUFFIX,bellingcat.com,Proxy
 HOST-SUFFIX,bemywife.cc,Proxy
 HOST-SUFFIX,beric.me,Proxy
 HOST-SUFFIX,berlinerbericht.de,Proxy
@@ -3591,6 +3595,7 @@ HOST-SUFFIX,lamayeshe.com,Proxy
 HOST-SUFFIX,lamnia.co.uk,Proxy
 HOST-SUFFIX,lamrim.com,Proxy
 HOST-SUFFIX,landofhope.tv,Proxy
+HOST-SUFFIX,lantern.io,Proxy
 HOST-SUFFIX,lantosfoundation.org,Proxy
 HOST-SUFFIX,laogai.org,Proxy
 HOST-SUFFIX,laogairesearch.org,Proxy
@@ -4491,6 +4496,7 @@ HOST-SUFFIX,oopsforum.com,Proxy
 HOST-SUFFIX,ooyala.com,Proxy
 HOST-SUFFIX,open.com.hk,Proxy
 HOST-SUFFIX,openallweb.com,Proxy
+HOST-SUFFIX,openart.ai,Proxy
 HOST-SUFFIX,openbase.com,Proxy
 HOST-SUFFIX,opencritic.com,Proxy
 HOST-SUFFIX,opendemocracy.net,Proxy
@@ -4990,6 +4996,7 @@ HOST-SUFFIX,rateyourmusic.com,Proxy
 HOST-SUFFIX,rationalwiki.org,Proxy
 HOST-SUFFIX,rawgit.com,Proxy
 HOST-SUFFIX,rawgithub.com,Proxy
+HOST-SUFFIX,rawstory.com,Proxy
 HOST-SUFFIX,razyboard.com,Proxy
 HOST-SUFFIX,rcinet.ca,Proxy
 HOST-SUFFIX,rd.com,Proxy
@@ -5008,6 +5015,7 @@ HOST-SUFFIX,realsexpass.com,Proxy
 HOST-SUFFIX,reason.com,Proxy
 HOST-SUFFIX,rebatesrule.net,Proxy
 HOST-SUFFIX,recaptcha.net,Proxy
+HOST-SUFFIX,recordedfuture.com,Proxy
 HOST-SUFFIX,recordhistory.org,Proxy
 HOST-SUFFIX,recovery.org.tw,Proxy
 HOST-SUFFIX,recoveryversion.com.tw,Proxy
@@ -5073,6 +5081,7 @@ HOST-SUFFIX,rmbl.ws,Proxy
 HOST-SUFFIX,rmjdw.com,Proxy
 HOST-SUFFIX,rmjdw132.info,Proxy
 HOST-SUFFIX,roadshow.hk,Proxy
+HOST-SUFFIX,roblox.com,Proxy
 HOST-SUFFIX,roboforex.com,Proxy
 HOST-SUFFIX,robustnessiskey.com,Proxy
 HOST-SUFFIX,rocket-inc.net,Proxy
@@ -5166,6 +5175,7 @@ HOST-SUFFIX,say2.info,Proxy
 HOST-SUFFIX,sb-cd.com,Proxy
 HOST-SUFFIX,sbme.me,Proxy
 HOST-SUFFIX,sbs.com.au,Proxy
+HOST-SUFFIX,sbti.unun.dev,Proxy
 HOST-SUFFIX,scasino.com,Proxy
 HOST-SUFFIX,scdn.co,Proxy
 HOST-SUFFIX,schema.org,Proxy
@@ -5727,6 +5737,7 @@ HOST-SUFFIX,tdm.com.mo,Proxy
 HOST-SUFFIX,teachparentstech.org,Proxy
 HOST-SUFFIX,teamamericany.com,Proxy
 HOST-SUFFIX,teamviewer.com,Proxy
+HOST-SUFFIX,techbang.com,Proxy
 HOST-SUFFIX,techcrunch.com,Proxy
 HOST-SUFFIX,technews.tw,Proxy
 HOST-SUFFIX,technorati.com,Proxy
@@ -5826,6 +5837,7 @@ HOST-SUFFIX,thevivekspot.com,Proxy
 HOST-SUFFIX,thewgo.org,Proxy
 HOST-SUFFIX,thewirechina.com,Proxy
 HOST-SUFFIX,theync.com,Proxy
+HOST-SUFFIX,thinkchina.sg,Proxy
 HOST-SUFFIX,thinkgeek.com,Proxy
 HOST-SUFFIX,thinkingtaiwan.com,Proxy
 HOST-SUFFIX,thinkwithgoogle.com,Proxy

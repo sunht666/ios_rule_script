@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-10 02:24:07
+# UPDATED: 2026-04-26 02:16:43
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6595
+# DOMAIN-SUFFIX: 6607
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6727
+# TOTAL: 6739
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -345,10 +345,10 @@ payload:
   - '+.animecrazy.net'
   - '+.animeshippuuden.com'
   - '+.aniscartujo.com'
-  - '+.annas-archive.in'
-  - '+.annas-archive.li'
+  - '+.annas-archive.gd'
+  - '+.annas-archive.gl'
   - '+.annas-archive.org'
-  - '+.annas-archive.pm'
+  - '+.annas-archive.pk'
   - '+.annas-archive.se'
   - '+.annatam.com'
   - '+.anobii.com'
@@ -406,6 +406,7 @@ payload:
   - '+.apkpure.net'
   - '+.aplusvpn.com'
   - '+.app-measurement.net'
+  - '+.app.element.io'
   - '+.app.heywire.com'
   - '+.app.tutanota.com'
   - '+.appadvice.com'
@@ -460,6 +461,7 @@ payload:
   - '+.asianspiss.com'
   - '+.asianwomensfilm.de'
   - '+.asiaone.com'
+  - '+.asiasociety.org'
   - '+.asiatgp.com'
   - '+.asiatoday.us'
   - '+.ask.com'
@@ -498,6 +500,7 @@ payload:
   - '+.avg.com'
   - '+.avgle.com'
   - '+.avidemux.org'
+  - '+.avistaz.to'
   - '+.avmo.pw'
   - '+.avmoo.com'
   - '+.avmoo.net'
@@ -604,6 +607,7 @@ payload:
   - '+.beijingzx.org'
   - '+.belamionline.com'
   - '+.bell.wiki'
+  - '+.bellingcat.com'
   - '+.bemywife.cc'
   - '+.beric.me'
   - '+.berlinerbericht.de'
@@ -3190,6 +3194,7 @@ payload:
   - '+.lamnia.co.uk'
   - '+.lamrim.com'
   - '+.landofhope.tv'
+  - '+.lantern.io'
   - '+.lantosfoundation.org'
   - '+.laogai.org'
   - '+.laogairesearch.org'
@@ -4083,6 +4088,7 @@ payload:
   - '+.ooyala.com'
   - '+.open.com.hk'
   - '+.openallweb.com'
+  - '+.openart.ai'
   - '+.openbase.com'
   - '+.opencritic.com'
   - '+.opendemocracy.net'
@@ -4555,6 +4561,7 @@ payload:
   - '+.rateyourmusic.com'
   - '+.rationalwiki.org'
   - '+.rawgit.com'
+  - '+.rawstory.com'
   - '+.razyboard.com'
   - '+.rcinet.ca'
   - '+.rd.com'
@@ -4573,6 +4580,7 @@ payload:
   - '+.reason.com'
   - '+.rebatesrule.net'
   - '+.recaptcha.net'
+  - '+.recordedfuture.com'
   - '+.recordhistory.org'
   - '+.recovery.org.tw'
   - '+.recoveryversion.com.tw'
@@ -4636,6 +4644,7 @@ payload:
   - '+.rmjdw.com'
   - '+.rmjdw132.info'
   - '+.roadshow.hk'
+  - '+.roblox.com'
   - '+.roboforex.com'
   - '+.robustnessiskey.com'
   - '+.rocket-inc.net'
@@ -4728,6 +4737,7 @@ payload:
   - '+.sb-cd.com'
   - '+.sbme.me'
   - '+.sbs.com.au'
+  - '+.sbti.unun.dev'
   - '+.scasino.com'
   - '+.scdn.co'
   - '+.schema.org'
@@ -5283,6 +5293,7 @@ payload:
   - '+.teachparentstech.org'
   - '+.teamamericany.com'
   - '+.teamviewer.com'
+  - '+.techbang.com'
   - '+.techcrunch.com'
   - '+.technews.tw'
   - '+.technorati.com'
@@ -5374,6 +5385,7 @@ payload:
   - '+.thewgo.org'
   - '+.thewirechina.com'
   - '+.theync.com'
+  - '+.thinkchina.sg'
   - '+.thinkgeek.com'
   - '+.thinkingtaiwan.com'
   - '+.thirdmill.org'

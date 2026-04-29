@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-10 02:24:07
+# UPDATED: 2026-04-26 02:16:43
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6595
+# DOMAIN-SUFFIX: 6607
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6727
+# TOTAL: 6739
 api.waqi.info
 aqi.aqicn.org
 assets-priconne-redive-us.akamaized.net
@@ -344,10 +344,10 @@ voice.telephony.goog
 +.animecrazy.net
 +.animeshippuuden.com
 +.aniscartujo.com
-+.annas-archive.in
-+.annas-archive.li
++.annas-archive.gd
++.annas-archive.gl
 +.annas-archive.org
-+.annas-archive.pm
++.annas-archive.pk
 +.annas-archive.se
 +.annatam.com
 +.anobii.com
@@ -405,6 +405,7 @@ voice.telephony.goog
 +.apkpure.net
 +.aplusvpn.com
 +.app-measurement.net
++.app.element.io
 +.app.heywire.com
 +.app.tutanota.com
 +.appadvice.com
@@ -459,6 +460,7 @@ voice.telephony.goog
 +.asianspiss.com
 +.asianwomensfilm.de
 +.asiaone.com
++.asiasociety.org
 +.asiatgp.com
 +.asiatoday.us
 +.ask.com
@@ -497,6 +499,7 @@ voice.telephony.goog
 +.avg.com
 +.avgle.com
 +.avidemux.org
++.avistaz.to
 +.avmo.pw
 +.avmoo.com
 +.avmoo.net
@@ -603,6 +606,7 @@ voice.telephony.goog
 +.beijingzx.org
 +.belamionline.com
 +.bell.wiki
++.bellingcat.com
 +.bemywife.cc
 +.beric.me
 +.berlinerbericht.de
@@ -3189,6 +3193,7 @@ voice.telephony.goog
 +.lamnia.co.uk
 +.lamrim.com
 +.landofhope.tv
++.lantern.io
 +.lantosfoundation.org
 +.laogai.org
 +.laogairesearch.org
@@ -4082,6 +4087,7 @@ voice.telephony.goog
 +.ooyala.com
 +.open.com.hk
 +.openallweb.com
++.openart.ai
 +.openbase.com
 +.opencritic.com
 +.opendemocracy.net
@@ -4554,6 +4560,7 @@ voice.telephony.goog
 +.rateyourmusic.com
 +.rationalwiki.org
 +.rawgit.com
++.rawstory.com
 +.razyboard.com
 +.rcinet.ca
 +.rd.com
@@ -4572,6 +4579,7 @@ voice.telephony.goog
 +.reason.com
 +.rebatesrule.net
 +.recaptcha.net
++.recordedfuture.com
 +.recordhistory.org
 +.recovery.org.tw
 +.recoveryversion.com.tw
@@ -4635,6 +4643,7 @@ voice.telephony.goog
 +.rmjdw.com
 +.rmjdw132.info
 +.roadshow.hk
++.roblox.com
 +.roboforex.com
 +.robustnessiskey.com
 +.rocket-inc.net
@@ -4727,6 +4736,7 @@ voice.telephony.goog
 +.sb-cd.com
 +.sbme.me
 +.sbs.com.au
++.sbti.unun.dev
 +.scasino.com
 +.scdn.co
 +.schema.org
@@ -5282,6 +5292,7 @@ voice.telephony.goog
 +.teachparentstech.org
 +.teamamericany.com
 +.teamviewer.com
++.techbang.com
 +.techcrunch.com
 +.technews.tw
 +.technorati.com
@@ -5373,6 +5384,7 @@ voice.telephony.goog
 +.thewgo.org
 +.thewirechina.com
 +.theync.com
++.thinkchina.sg
 +.thinkgeek.com
 +.thinkingtaiwan.com
 +.thirdmill.org

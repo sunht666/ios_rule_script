@@ -14,5 +14,8 @@ http-response ^https:\/\/www\.erplus\.co\/api\/v1\/contacts\/\d+\/identity scrip
 http-response ^https:\/\/www\.erplus\.co\/mpauth\/getSomeoneAuthByAccessToken script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_permission.js, requires-body=true, tag=大管加权限码
 http-response ^https:\/\/www\.erplus\.co\/mpauth\/getEveryoneAuthByAccessTokenServlet script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_permission.js, requires-body=true, tag=大管加全员权限
 
+# 调休余额修改
+http-response ^https:\/\/www\.erplus\.co\/appreq\/getTemplateLeaveType\? script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_leave.js, requires-body=true, tag=大管加调休余额
+
 [MITM]
 hostname = *.erplus.co, *.erplus.cn

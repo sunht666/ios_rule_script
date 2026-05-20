@@ -17,6 +17,7 @@ http-response ^https:\/\/www\.erplus\.co\/mpauth\/getEveryoneAuthByAccessTokenSe
 
 # 调休余额修改
 http-response ^https:\/\/www\.erplus\.co\/appreq\/getTemplateLeaveType\? script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_leave.js, requires-body=true, tag=大管加调休余额
+http-response ^https:\/\/www\.erplus\.co\/appreq\/getTemplateList(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_leave.js, requires-body=true, tag=大管加申请次数
 
 [MITM]
 hostname = *.erplus.co, *.erplus.cn

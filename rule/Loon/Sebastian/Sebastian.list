@@ -23,3 +23,13 @@ DOMAIN-SUFFIX,orb.ac
 DOMAIN-SUFFIX,phaver.com
 DOMAIN-SUFFIX,status.app
 DOMAIN-SUFFIX,status.im
+
+# Signal
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,whispersystems.org
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.tube
+DOMAIN-SUFFIX,signalusers.org

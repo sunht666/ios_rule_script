@@ -1,4 +1,25 @@
 # Dia 浏览器
-DOMAIN-SUFFIX,diabrowser.engineering,AI
-DOMAIN,api.segment.io,AI
-DOMAIN-SUFFIX,launchdarkly.com,AI
+DOMAIN-SUFFIX,diabrowser.engineering
+DOMAIN,api.segment.io
+DOMAIN-SUFFIX,launchdarkly.com
+
+# Web3 / Social / IM
+DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,walletconnect.com
+DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.network
+DOMAIN-SUFFIX,bsky.social
+DOMAIN-SUFFIX,convos.org
+DOMAIN-SUFFIX,xmtp.org
+DOMAIN-SUFFIX,xmtp.network
+DOMAIN-SUFFIX,xmtplabs.com
+DOMAIN-SUFFIX,farcaster.xyz
+DOMAIN-SUFFIX,warpcast.com
+DOMAIN-SUFFIX,neynar.com
+DOMAIN-SUFFIX,lens.xyz
+DOMAIN-SUFFIX,hey.xyz
+DOMAIN-SUFFIX,orb.ac
+DOMAIN-SUFFIX,phaver.com
+DOMAIN-SUFFIX,status.app
+DOMAIN-SUFFIX,status.im

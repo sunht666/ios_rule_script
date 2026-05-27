@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-20 02:39:24
+# UPDATED: 2026-05-24 02:23:42
 # HOST: 19
 # HOST-KEYWORD: 26
-# HOST-SUFFIX: 7117
+# HOST-SUFFIX: 7126
 # IP-CIDR: 93
 # IP6-CIDR: 4
 # USER-AGENT: 8
-# TOTAL: 7267
+# TOTAL: 7276
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
@@ -90,6 +90,7 @@ HOST-SUFFIX,21sextury.com,Proxy
 HOST-SUFFIX,228.net.tw,Proxy
 HOST-SUFFIX,233abc.com,Proxy
 HOST-SUFFIX,233v2.com,Proxy
+HOST-SUFFIX,24hbook.com,Proxy
 HOST-SUFFIX,24hrs.ca,Proxy
 HOST-SUFFIX,24smile.org,Proxy
 HOST-SUFFIX,25u.com,Proxy
@@ -1899,6 +1900,7 @@ HOST-SUFFIX,ezua.com,Proxy
 HOST-SUFFIX,f-droid.org,Proxy
 HOST-SUFFIX,f2pool.com,Proxy
 HOST-SUFFIX,f8.com,Proxy
+HOST-SUFFIX,f95zone.to,Proxy
 HOST-SUFFIX,fabric.io,Proxy
 HOST-SUFFIX,facebook.br,Proxy
 HOST-SUFFIX,facebook.com,Proxy
@@ -2254,6 +2256,7 @@ HOST-SUFFIX,fzlm.com,Proxy
 HOST-SUFFIX,fzlm.net,Proxy
 HOST-SUFFIX,g-area.org,Proxy
 HOST-SUFFIX,g-queen.com,Proxy
+HOST-SUFFIX,g.ai,Proxy
 HOST-SUFFIX,g.co,Proxy
 HOST-SUFFIX,g.kfd.me,Proxy
 HOST-SUFFIX,g0v.social,Proxy
@@ -3642,6 +3645,7 @@ HOST-SUFFIX,leisurepro.com,Proxy
 HOST-SUFFIX,lematin.ch,Proxy
 HOST-SUFFIX,lemonde.fr,Proxy
 HOST-SUFFIX,lenwhite.com,Proxy
+HOST-SUFFIX,leonardo.ai,Proxy
 HOST-SUFFIX,lerosua.org,Proxy
 HOST-SUFFIX,lers.google,Proxy
 HOST-SUFFIX,lesoir.be,Proxy
@@ -3846,6 +3850,7 @@ HOST-SUFFIX,maruta.be,Proxy
 HOST-SUFFIX,marxist.com,Proxy
 HOST-SUFFIX,marxist.net,Proxy
 HOST-SUFFIX,marxists.org,Proxy
+HOST-SUFFIX,mas.to,Proxy
 HOST-SUFFIX,mash.to,Proxy
 HOST-SUFFIX,mashable.com,Proxy
 HOST-SUFFIX,maskedip.com,Proxy
@@ -4229,6 +4234,7 @@ HOST-SUFFIX,ndr.de,Proxy
 HOST-SUFFIX,ned.org,Proxy
 HOST-SUFFIX,nekoslovakia.net,Proxy
 HOST-SUFFIX,neo-miracle.com,Proxy
+HOST-SUFFIX,neodb.social,Proxy
 HOST-SUFFIX,neoforged.net,Proxy
 HOST-SUFFIX,neowin.net,Proxy
 HOST-SUFFIX,nephobox.com,Proxy
@@ -5007,6 +5013,7 @@ HOST-SUFFIX,rangzen.org,Proxy
 HOST-SUFFIX,ranxiang.com,Proxy
 HOST-SUFFIX,ranyunfei.com,Proxy
 HOST-SUFFIX,rapbull.net,Proxy
+HOST-SUFFIX,raphael.app,Proxy
 HOST-SUFFIX,rapidgator.net,Proxy
 HOST-SUFFIX,rapidmoviez.com,Proxy
 HOST-SUFFIX,rapidvpn.com,Proxy
@@ -5137,6 +5144,7 @@ HOST-SUFFIX,rts.ch,Proxy
 HOST-SUFFIX,rtycminnesota.org,Proxy
 HOST-SUFFIX,ruanyifeng.com,Proxy
 HOST-SUFFIX,rukor.org,Proxy
+HOST-SUFFIX,rule34.us,Proxy
 HOST-SUFFIX,rule34.xxx,Proxy
 HOST-SUFFIX,rule34video.com,Proxy
 HOST-SUFFIX,rumble.com,Proxy
@@ -5474,6 +5482,7 @@ HOST-SUFFIX,sos.org,Proxy
 HOST-SUFFIX,sosad.fun,Proxy
 HOST-SUFFIX,sosreader.com,Proxy
 HOST-SUFFIX,sostibet.org,Proxy
+HOST-SUFFIX,sotwe.com,Proxy
 HOST-SUFFIX,sou-tong.org,Proxy
 HOST-SUFFIX,soubory.com,Proxy
 HOST-SUFFIX,soul-plus.net,Proxy

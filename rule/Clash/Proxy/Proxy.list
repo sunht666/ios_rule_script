@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-20 02:39:24
+# UPDATED: 2026-05-24 02:23:41
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6637
+# DOMAIN-SUFFIX: 6646
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6769
+# TOTAL: 6778
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,21sextury.com
 DOMAIN-SUFFIX,228.net.tw
 DOMAIN-SUFFIX,233abc.com
 DOMAIN-SUFFIX,233v2.com
+DOMAIN-SUFFIX,24hbook.com
 DOMAIN-SUFFIX,24hrs.ca
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,25u.com
@@ -1790,6 +1791,7 @@ DOMAIN-SUFFIX,ezua.com
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f2pool.com
 DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,f95zone.to
 DOMAIN-SUFFIX,fabric.io
 DOMAIN-SUFFIX,faceless.me
 DOMAIN-SUFFIX,facesofnyfw.com
@@ -2128,6 +2130,7 @@ DOMAIN-SUFFIX,fzlm.com
 DOMAIN-SUFFIX,fzlm.net
 DOMAIN-SUFFIX,g-area.org
 DOMAIN-SUFFIX,g-queen.com
+DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g.kfd.me
 DOMAIN-SUFFIX,g0v.social
@@ -3239,6 +3242,7 @@ DOMAIN-SUFFIX,leisurepro.com
 DOMAIN-SUFFIX,lematin.ch
 DOMAIN-SUFFIX,lemonde.fr
 DOMAIN-SUFFIX,lenwhite.com
+DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,lerosua.org
 DOMAIN-SUFFIX,lesoir.be
 DOMAIN-SUFFIX,lester850.info
@@ -3440,6 +3444,7 @@ DOMAIN-SUFFIX,maruta.be
 DOMAIN-SUFFIX,marxist.com
 DOMAIN-SUFFIX,marxist.net
 DOMAIN-SUFFIX,marxists.org
+DOMAIN-SUFFIX,mas.to
 DOMAIN-SUFFIX,mash.to
 DOMAIN-SUFFIX,mashable.com
 DOMAIN-SUFFIX,maskedip.com
@@ -3823,6 +3828,7 @@ DOMAIN-SUFFIX,ndr.de
 DOMAIN-SUFFIX,ned.org
 DOMAIN-SUFFIX,nekoslovakia.net
 DOMAIN-SUFFIX,neo-miracle.com
+DOMAIN-SUFFIX,neodb.social
 DOMAIN-SUFFIX,neoforged.net
 DOMAIN-SUFFIX,neowin.net
 DOMAIN-SUFFIX,nephobox.com
@@ -4572,6 +4578,7 @@ DOMAIN-SUFFIX,rangzen.org
 DOMAIN-SUFFIX,ranxiang.com
 DOMAIN-SUFFIX,ranyunfei.com
 DOMAIN-SUFFIX,rapbull.net
+DOMAIN-SUFFIX,raphael.app
 DOMAIN-SUFFIX,rapidgator.net
 DOMAIN-SUFFIX,rapidmoviez.com
 DOMAIN-SUFFIX,rapidvpn.com
@@ -4699,6 +4706,7 @@ DOMAIN-SUFFIX,rts.ch
 DOMAIN-SUFFIX,rtycminnesota.org
 DOMAIN-SUFFIX,ruanyifeng.com
 DOMAIN-SUFFIX,rukor.org
+DOMAIN-SUFFIX,rule34.us
 DOMAIN-SUFFIX,rule34.xxx
 DOMAIN-SUFFIX,rule34video.com
 DOMAIN-SUFFIX,rumble.com
@@ -5033,6 +5041,7 @@ DOMAIN-SUFFIX,sos.org
 DOMAIN-SUFFIX,sosad.fun
 DOMAIN-SUFFIX,sosreader.com
 DOMAIN-SUFFIX,sostibet.org
+DOMAIN-SUFFIX,sotwe.com
 DOMAIN-SUFFIX,sou-tong.org
 DOMAIN-SUFFIX,soubory.com
 DOMAIN-SUFFIX,soul-plus.net

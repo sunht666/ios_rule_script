@@ -6,10 +6,10 @@
 
 const LEAVE_NAME = "调休";
 const WORKDAY_SECONDS = 8 * 60 * 60;
-const TARGET_DAYS = 10;
+const TARGET_DAYS = 3.86;
 const TARGET_SECONDS = TARGET_DAYS * WORKDAY_SECONDS;
-const TARGET_SHOW = `${TARGET_DAYS}.0天`;
-const TEMPLATE_LIMIT_MAX = 100;
+const TARGET_SHOW = `${TARGET_DAYS}天`;
+const TEMPLATE_LIMIT_MAX = 2;
 
 let body = $response.body;
 const url = $request.url;

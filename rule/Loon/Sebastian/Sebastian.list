@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN,api.segment.io
 DOMAIN-SUFFIX,launchdarkly.com
 
+# Cloud / VPS
+DOMAIN-SUFFIX,digital-vm.com
+
 # Web3 / Social / IM
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,walletconnect.com

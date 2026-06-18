@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-24 02:23:41
+# UPDATED: 2026-06-08 02:31:09
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6646
+# DOMAIN-SUFFIX: 6656
 # IP-CIDR: 97
 # USER-AGENT: 8
-# TOTAL: 6786
+# TOTAL: 6796
 .000webhost.com
 .030buy.com
 .0rz.tw
@@ -441,6 +441,7 @@
 .arunachalforests.gov.in
 .arvanstorage.ir
 .arweave.org
+.as.mr
 .asacp.org
 .asdfg.jp
 .asg.to
@@ -540,6 +541,7 @@
 .bangdream.space
 .bangkokpost.com
 .bangumi.moe
+.bangumi.tv
 .bangyoulater.com
 .bankmobilevibe.com
 .bannednews.org
@@ -625,6 +627,7 @@
 .beyondfirewall.com
 .bfnn.org
 .bfsh.hk
+.bgm.tv
 .bgme.me
 .bgvpn.com
 .bianlei.com
@@ -1008,6 +1011,7 @@
 .cherrysave.com
 .chhongbi.org
 .chicagoncmtv.com
+.chii.in
 .china-mmm.jp.net
 .china-mmm.net
 .china-mmm.sa.com
@@ -1177,7 +1181,6 @@
 .cn6.eu
 .cna.com.tw
 .cnabc.com
-.cnbc.com
 .cnbeta.com.tw
 .cnd.org
 .cnet.com
@@ -1533,6 +1536,7 @@
 .doujincafe.com
 .dowei.org
 .dowjones.com
+.dowjones.io
 .download.dappcdn.com
 .dphk.org
 .dpool.top
@@ -2184,6 +2188,7 @@
 .geekheart.info
 .gekikame.com
 .gelbooru.com
+.gencraft.com
 .generated.photos
 .geni.us
 .genius.com
@@ -2509,6 +2514,7 @@
 .hicairo.com
 .hiccears.com
 .hidden-advent.org
+.hiddify.com
 .hide.me
 .hidecloud.com
 .hidein.net
@@ -3664,6 +3670,7 @@
 .movements.org
 .moves-export.com
 .moviefap.com
+.mozilla.ai
 .mozilla.org
 .moztw.org
 .mp3buscador.com
@@ -5200,6 +5207,7 @@
 .suroot.com
 .surrenderat20.net
 .suyangg.com
+.suyingtv.com
 .svsfx.com
 .swagbucks.com
 .swapspace.co
@@ -5966,6 +5974,7 @@
 .vcf-online.org
 .vcfbuilder.org
 .vds.rightster.com
+.veed.io
 .vegasred.com
 .velkaepocha.sk
 .venbbs.com
@@ -6317,6 +6326,7 @@
 .woyaolian.org
 .wozy.in
 .wp.com
+.wplace.live
 .wpoforum.com
 .wqyd.org
 .wr.pvp.net

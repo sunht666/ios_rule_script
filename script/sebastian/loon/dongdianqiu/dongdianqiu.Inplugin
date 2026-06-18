@@ -1,0 +1,11 @@
+#!name=懂球帝
+#!desc=懂球帝响应改写（pay_status / is_vip_show / vipType）
+#!author=Sebastian
+
+[Script]
+http-response ^https:\/\/zc\.dongdianqiu\.com\/api\/getMatchTips(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/dongdianqiu/dongdianqiu.js, requires-body=true, tag=懂球帝比赛情报
+http-response ^https:\/\/zc\.dongdianqiu\.com\/plan\/planDetail(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/dongdianqiu/dongdianqiu.js, requires-body=true, tag=懂球帝方案详情
+http-response ^https:\/\/api\.dongdianqiu\.com\/v2\/user\/is_login(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/dongdianqiu/dongdianqiu.js, requires-body=true, tag=懂球帝登录信息
+
+[MITM]
+hostname = zc.dongdianqiu.com, api.dongdianqiu.com

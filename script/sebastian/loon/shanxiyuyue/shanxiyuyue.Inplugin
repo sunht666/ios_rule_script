@@ -1,0 +1,9 @@
+#!name=山西预约
+#!desc=本地调试：将预约接口 data 中各日期余量显示为 100
+#!author=Sebastian
+
+[Script]
+http-response ^https:\/\/.+\.domicro\.cn\/api\/dm_checkin_cy.php script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/shanxiyuyue/shanxiyuyue.js, requires-body=true, tag=山西预约余量
+
+[MITM]
+hostname = domicro.cn, *.domicro.cn

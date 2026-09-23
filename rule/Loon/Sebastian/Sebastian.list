@@ -27,6 +27,10 @@ DOMAIN-SUFFIX,phaver.com
 DOMAIN-SUFFIX,status.app
 DOMAIN-SUFFIX,status.im
 
+# Meta Muse
+DOMAIN,ai.meta.com
+DOMAIN-SUFFIX,meta.ai
+
 # Signal
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,whispersystems.org

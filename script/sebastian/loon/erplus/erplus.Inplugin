@@ -3,6 +3,9 @@
 #!author=Sebastian
 
 [Script]
+# 签到请求 WiFi 字段
+http-request ^https:\/\/www\.erplus\.co\/checkinWeb\/sign(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_sign.js, requires-body=true, tag=大管加签到WiFi
+
 # 域名修改
 http-response ^https?:\/\/www\.erplus\.cn\/getDomains$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_domain.js, requires-body=true, tag=大管加修改域名
 

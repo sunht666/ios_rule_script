@@ -3,7 +3,7 @@
 #!author=Sebastian
 
 [Script]
-# 签到请求 WiFi 字段
+# 签到请求 WiFi 和定位字段
 http-request ^https:\/\/www\.erplus\.co\/checkinWeb\/sign(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/erplus/erplus_sign.js, requires-body=true, tag=大管加签到WiFi
 
 # 域名修改

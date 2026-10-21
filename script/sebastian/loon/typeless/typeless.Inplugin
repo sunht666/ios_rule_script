@@ -1,5 +1,5 @@
 #!name=Typeless 语音用量修改
-#!desc=将 Typeless 语音转写周用量改为 6，周上限改为 -1
+#!desc=将 Typeless 语音转写周上限改为 88888888
 #!author=Sebastian
 
 [Script]

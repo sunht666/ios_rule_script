@@ -4,8 +4,7 @@
  * author: Sebastian
  */
 
-const TARGET_VALUE = 6;
-const TARGET_LIMIT = -1;
+const TARGET_LIMIT = 88888888;
 const TARGET_PATH = ["data", "voice_transcription"];
 
 function patchUsage(obj) {
@@ -18,17 +17,12 @@ function patchUsage(obj) {
 
     if (!target || typeof target !== "object") return false;
 
-    let changed = false;
-    if (Object.prototype.hasOwnProperty.call(target, "week_word_usage_value")) {
-        target.week_word_usage_value = TARGET_VALUE;
-        changed = true;
-    }
     if (Object.prototype.hasOwnProperty.call(target, "week_word_usage_limit")) {
         target.week_word_usage_limit = TARGET_LIMIT;
-        changed = true;
+        return true;
     }
 
-    return changed;
+    return false;
 }
 
 let body = $response.body;

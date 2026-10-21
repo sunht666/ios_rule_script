@@ -68,6 +68,20 @@ DOMAIN-SUFFIX,signal.me
 DOMAIN-SUFFIX,signal.tube
 DOMAIN-SUFFIX,signalusers.org
 
+# Social / publishing sites and IP lookup (targeted proxy additions)
+# Assign the Sebastian subscription to the intended proxy policy in Loon.
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,ipify.org
+
 # Adult / Creator Media
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,fansly.com

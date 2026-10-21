@@ -1,0 +1,9 @@
+#!name=Typeless 语音用量修改
+#!desc=将 Typeless 语音转写周用量改为 6，周上限改为 -1
+#!author=Sebastian
+
+[Script]
+http-response ^https:\/\/api\.typeless\.com\/user\/usage_stats(?:\?.*)?$ script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/loon/typeless/typeless_usage.js, requires-body=true, tag=Typeless语音用量
+
+[MITM]
+hostname = api.typeless.com

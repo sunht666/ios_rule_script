@@ -6,6 +6,20 @@ DOMAIN-SUFFIX,launchdarkly.com
 # Cloud / VPS
 DOMAIN-SUFFIX,digital-vm.com
 
+# Linear: app, API, sync, files, static assets, sandboxes and status
+# Sources: https://linear.app/security/vulnerability and linear.app CSP
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,linear.dev
+DOMAIN-SUFFIX,linear.run
+DOMAIN-SUFFIX,linearstatus.com
+# Shared storage host used by Linear attachment uploads and imports
+DOMAIN,storage.googleapis.com
+# Website content and documentation search
+DOMAIN,ornj730p.api.sanity.io
+DOMAIN,ornj730p.apicdn.sanity.io
+DOMAIN,cdn.sanity.io
+DOMAIN,9rxbcyq6dv-dsn.algolia.net
+
 # OpenAI Voice: official IPv4 media endpoints, checked 2026-10-08
 # Source: https://openai.com/chatgpt-voice.json
 # Complements OpenAI.list for IP-addressed media; dots coverage is unverified.

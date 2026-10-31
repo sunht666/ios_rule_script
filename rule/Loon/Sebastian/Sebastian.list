@@ -6,6 +6,9 @@ DOMAIN-SUFFIX,launchdarkly.com
 # Cloud / VPS
 DOMAIN-SUFFIX,digital-vm.com
 
+# MEXC (also covered by Crypto.list)
+DOMAIN-SUFFIX,mexc.com
+
 # Linear: app, API, sync, files, static assets, sandboxes and status
 # Sources: https://linear.app/security/vulnerability and linear.app CSP
 DOMAIN-SUFFIX,linear.app

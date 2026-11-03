@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,launchdarkly.com
 
 # Cloud / VPS
 DOMAIN-SUFFIX,digital-vm.com
+DOMAIN,who.1ms.dog
 
 # MEXC (also covered by Crypto.list)
 DOMAIN-SUFFIX,mexc.com

@@ -51,6 +51,16 @@ IP-CIDR,68.155.152.41/32,no-resolve
 IP-CIDR,72.146.20.246/32,no-resolve
 IP-CIDR,74.248.148.7/32,no-resolve
 
+# Apple Intelligence / Siri / Search
+# Source: https://support.apple.com/en-us/101555
+# Keep these connections excluded from HTTPS interception (MITM).
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+
 # Web3 / Social / IM
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,walletconnect.com

@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,digital-vm.com
 DOMAIN,who.1ms.dog
 
+# Linux DO
+DOMAIN-SUFFIX,linux.do
+
 # MEXC (also covered by Crypto.list)
 DOMAIN-SUFFIX,mexc.com
 

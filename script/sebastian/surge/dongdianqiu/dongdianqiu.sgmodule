@@ -1,0 +1,11 @@
+#!name=懂球帝
+#!desc=懂球帝响应改写（pay_status / is_vip_show / vipType）
+#!author=Sebastian
+
+[Script]
+dongdianqiu_match_tips = type=http-response,pattern=^https:\/\/zc\.dongdianqiu\.com\/api\/getMatchTips(?:\?.*)?$,script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/surge/dongdianqiu/dongdianqiu.js,requires-body=true,max-size=-1
+dongdianqiu_plan_detail = type=http-response,pattern=^https:\/\/zc\.dongdianqiu\.com\/plan\/planDetail(?:\?.*)?$,script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/surge/dongdianqiu/dongdianqiu.js,requires-body=true,max-size=-1
+dongdianqiu_login = type=http-response,pattern=^https:\/\/api\.dongdianqiu\.com\/v2\/user\/is_login(?:\?.*)?$,script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/surge/dongdianqiu/dongdianqiu.js,requires-body=true,max-size=-1
+
+[MITM]
+hostname = %APPEND% zc.dongdianqiu.com, api.dongdianqiu.com

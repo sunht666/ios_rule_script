@@ -1,0 +1,9 @@
+#!name=Typeless 语音用量修改
+#!desc=将 Typeless 语音转写周上限改为 88888888
+#!author=Sebastian
+
+[Script]
+typeless_usage = type=http-response,pattern=^https:\/\/api\.typeless\.com\/user\/usage_stats(?:\?.*)?$,script-path=https://raw.githubusercontent.com/sunht666/ios_rule_script/master/script/sebastian/surge/typeless/typeless_usage.js,requires-body=true,max-size=-1
+
+[MITM]
+hostname = %APPEND% api.typeless.com

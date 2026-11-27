@@ -1,0 +1,33 @@
+#!name=Sebastian 本地脚本合集
+#!desc=大管加 / Typeless / 懂球帝 / 山西预约 / 小红书（本地脚本版）
+#!author=Sebastian
+
+[Script]
+# ===== 大管加 =====
+erplus_sign = type=http-request,pattern=^https:\/\/www\.erplus\.co\/checkinWeb\/sign(?:\?.*)?$,script-path=Script/erplus_sign.js,requires-body=true,max-size=-1,debug=true
+erplus_domain = type=http-response,pattern=^https?:\/\/www\.erplus\.cn\/getDomains$,script-path=Script/erplus_domain.js,requires-body=true,max-size=-1,debug=true
+erplus_profile = type=http-response,pattern=^https?:\/\/www\.erplus\.co\/api\/v1\/profile$,script-path=Script/erplus_admin.js,requires-body=true,max-size=-1,debug=true
+erplus_contacts = type=http-response,pattern=^https:\/\/www\.erplus\.co\/api\/v1\/contacts(?:\?.*)?$,script-path=Script/erplus_admin.js,requires-body=true,max-size=-1,debug=true
+erplus_identity = type=http-response,pattern=^https:\/\/www\.erplus\.co\/api\/v1\/contacts\/\d+\/identity$,script-path=Script/erplus_admin.js,requires-body=true,max-size=-1,debug=true
+erplus_permission_someone = type=http-response,pattern=^https:\/\/www\.erplus\.co\/mpauth\/getSomeoneAuthByAccessToken$,script-path=Script/erplus_permission.js,requires-body=true,max-size=-1,debug=true
+erplus_permission_everyone = type=http-response,pattern=^https:\/\/www\.erplus\.co\/mpauth\/getEveryoneAuthByAccessTokenServlet$,script-path=Script/erplus_permission.js,requires-body=true,max-size=-1,debug=true
+erplus_leave_template = type=http-response,pattern=^https:\/\/www\.erplus\.co\/appreq\/getTemplateLeaveType\?,script-path=Script/erplus_leave.js,requires-body=true,max-size=-1,debug=true
+erplus_leave_list = type=http-response,pattern=^https:\/\/www\.erplus\.co\/appreq\/getTemplateList(?:\?.*)?$,script-path=Script/erplus_leave.js,requires-body=true,max-size=-1,debug=true
+
+# ===== Typeless =====
+typeless_usage = type=http-response,pattern=^https:\/\/api\.typeless\.com\/user\/usage_stats(?:\?.*)?$,script-path=Script/typeless_usage.js,requires-body=true,max-size=-1,debug=true
+
+# ===== 懂球帝 =====
+dongdianqiu_match_tips = type=http-response,pattern=^https:\/\/zc\.dongdianqiu\.com\/api\/getMatchTips(?:\?.*)?$,script-path=Script/dongdianqiu.js,requires-body=true,max-size=-1,debug=true
+dongdianqiu_plan_detail = type=http-response,pattern=^https:\/\/zc\.dongdianqiu\.com\/plan\/planDetail(?:\?.*)?$,script-path=Script/dongdianqiu.js,requires-body=true,max-size=-1,debug=true
+dongdianqiu_login = type=http-response,pattern=^https:\/\/api\.dongdianqiu\.com\/v2\/user\/is_login(?:\?.*)?$,script-path=Script/dongdianqiu.js,requires-body=true,max-size=-1,debug=true
+
+# ===== 山西预约 =====
+shanxiyuyue_availability = type=http-response,pattern=^https:\/\/.+\.domicro\.cn\/api\/dm_checkin_cy.php,script-path=Script/shanxiyuyue.js,requires-body=true,max-size=-1,debug=true
+
+# ===== 小红书 =====
+xhs_voice = type=http-response,pattern=^https:\/\/.+\.xiaohongshu\.com\/api\/sns\/v1\/system\/cold_start_config,script-path=Script/xhs_voice.js,requires-body=true,max-size=-1,debug=true
+xhs_save = type=http-response,pattern=^https:\/\/.+\.xiaohongshu\.com\/api\/sns\/v1\/note\/imagefeed,script-path=Script/xhs_save.js,requires-body=true,max-size=-1,debug=true
+
+[MITM]
+hostname = %APPEND% *.erplus.co, *.erplus.cn, api.typeless.com, zc.dongdianqiu.com, api.dongdianqiu.com, domicro.cn, *.domicro.cn, edith.xiaohongshu.com, *.xiaohongshu.com
